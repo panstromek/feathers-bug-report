@@ -5,10 +5,11 @@
 ## About
 
 Relevant files:
-`report.js` - script that connects to a server and tries to create a message
-`channels.js` - throws exception in `.publish` 
-`app.hooks.js` - there is a log that doesn't log anything, meaning that feathers didn't catch the error
-`services/index.js` - simple dummy service, not important
+
+ - `report.js` - script that connects to a server and tries to create a message
+ - `channels.js` - throws exception in `.publish` 
+ - `app.hooks.js` - there is a log that doesn't log anything, meaning that feathers didn't catch the error
+ - `services/index.js` - simple dummy service, not important
 
 ## Getting Started
 

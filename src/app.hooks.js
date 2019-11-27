@@ -2,7 +2,11 @@
 
 module.exports = {
   before: {
-    all: [],
+    all: [ctx => {
+      ctx.params.user = {
+        password: 'this should be a secret'
+      }
+    }],
     find: [],
     get: [],
     create: [],
